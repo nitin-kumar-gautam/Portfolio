@@ -5,7 +5,7 @@ import profile_img from '../../assets/profile_img.png'
 const Hero = () => {
 
   const handleDownload = () => {
-    const fileUrl = '/Nitin Kumar Web Developer .pdf';
+    const fileUrl = '/Nitin.dev.pdf';
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = 'Nitin Kumar Web Developer .pdf'; 
