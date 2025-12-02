@@ -8,7 +8,7 @@ const Hero = () => {
     const fileUrl = '/Nitin.dev.pdf';
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'Nitin Kumar Web Developer .pdf'; 
+    link.download = 'Nitin.dev.pdf'; 
     link.click();
   };
 
